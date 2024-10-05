@@ -11,6 +11,7 @@ public class Main {
         //System.out.printf("Name: %s. Hit points: %d", name, hitPoints));
         System.out.println(m);
 
+
         Link link = new Link();
         link.hit(m);
 
@@ -25,12 +26,15 @@ public class Main {
         Box b = new Box();
         link.hit(b);
 
-        Dog dog = new Dog();
-        link.hit(dog);
+        // since we want link to not hit dog, so this code doesn't exist
+        //Dog dog = new Dog();
+        //link.hit(dog);
 
         
         //why duplicate here
-        Damagable d = b;
+        //Damagable d = b;
+
+        //Damagable dd = new Damagable();
 
         // an interface in not a class, so you cannot instantiate it 
         // not possible to have an instant of a 

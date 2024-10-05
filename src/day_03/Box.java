@@ -18,5 +18,7 @@ public class Box implements Damagable {
 
 
     //add a return damage
-    
+    public int getDamage() {
+        return this.integrity;
+    }
 }
