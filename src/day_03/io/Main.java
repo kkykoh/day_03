@@ -1,6 +1,6 @@
 package day_03.io;
 
-import java.nio.File;
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -21,5 +21,9 @@ public class Main {
         System.out.printf("file size: %s\n", f.length());
 
         //Use file
+        File cat = new File("src/day_03/io/Main.java");
+        System.out.printf("get absolute path: %s \n",cat.getAbsolutePath());
+        System.out.printf("get name: %s \n", cat.getName());
+        System.out.printf("File size: %s \n", cat.length());
     }
 }

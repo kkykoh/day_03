@@ -11,7 +11,6 @@ public class Main {
         //System.out.printf("Name: %s. Hit points: %d", name, hitPoints));
         System.out.println(m);
 
-
         Link link = new Link();
         link.hit(m);
 
@@ -19,7 +18,6 @@ public class Main {
 
         Godzilla g = new Godzilla();
         System.out.println(g);
-
         link.hit(g);
         System.out.println(g);
 
@@ -30,7 +28,6 @@ public class Main {
         //Dog dog = new Dog();
         //link.hit(dog);
 
-        
         //why duplicate here
         //Damagable d = b;
 

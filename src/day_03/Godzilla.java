@@ -2,7 +2,6 @@ package day_03;
 
 public class Godzilla extends Monster {
 
-
     //constructor
     public Godzilla() {
         setName("Godzilla");

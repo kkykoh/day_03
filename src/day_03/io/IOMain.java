@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.IOException;
-import java.io.ObjectInputStream;
+//import java.io.ObjectInputStream;
 
 public class IOMain {
 
@@ -40,13 +40,11 @@ public class IOMain {
                break;
             System.out.printf(">>>line %s \n", line.toUpperCase());
         
-
             String[] words = line.split(" ");
             totalWords += words.length;
         }
         
-        System.out.printf("total word count: %s \n.", totalWords.length);
-
+        System.out.printf("total word count: %s \n.", totalWords);
 
         // //create a buffer
         // byte[] buffer = new byte[1024];
@@ -65,8 +63,6 @@ public class IOMain {
         //         total += bytesRead;
         //     System.out.printf(">>> bytes read>: %d (%d) \n", bytesRead, total);
 
-
-            
         //after reading, close the stream
     fis.close();
     }

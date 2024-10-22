@@ -1,8 +1,8 @@
 package day_03.io;
 
 import java.io.File;
-import java.io.file.Path;
-import java.nio.file.Paths;
+//import java.io.file.Path;
+//import java.nio.file.Paths;
 
 public class FileMain {
 
@@ -33,5 +33,4 @@ public class FileMain {
             System.out.printf("write:%s\n", file.canWrite());
         }
     }
-    
 }
